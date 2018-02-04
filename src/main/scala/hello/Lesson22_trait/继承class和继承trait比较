@@ -1,0 +1,31 @@
+import scala.reflect.ScalaSignature;
+
+@ScalaSignature(bytes="\006\00191A!\001\002\001\013\tA1\013^;eK:$\030GC\001\004\003\035aT-\0349usz\032\001a\005\002\001\rA\021q\001C\007\002\005%\021\021B\001\002\b!\026\0248o\03482\021\025Y\001\001\"\001\r\003\031a\024N\\5u}Q\tQ\002\005\002\b\001\001")
+public class Student1
+  extends Person1
+{}
+
+
+import scala.reflect.ScalaSignature;
+
+@ScalaSignature(bytes="\006\001Q1A!\001\002\001\013\t91\013^;eK:$(\"A\002\002\017q*W\016\035;z}\r\0011c\001\001\007\031A\021qAC\007\002\021)\t\021\"A\003tG\006d\027-\003\002\f\021\t1\021I\\=SK\032\004\"!\004\b\016\003\tI!a\004\002\003\rA+'o]8o\021\025\t\002\001\"\001\023\003\031a\024N\\5u}Q\t1\003\005\002\016\001\001")
+public class Student
+  implements Person
+{
+  private final String name;
+
+  public Student()
+  {
+    Person.$init$(this);
+  }
+
+  public void Person$_setter_$name_$eq(String x$1)
+  {
+    this.name = x$1;
+  }
+
+  public String name()
+  {
+    return this.name;
+  }
+}

@@ -8,7 +8,6 @@ package hello.Lession10_function
 object DefaultParam {
 
   def sayHello(firstName : String,middleName : String ="mn",lastName:String = "ln"): Unit ={
-
     printf("Hello,%s %s %s",firstName,middleName,lastName)
     println()
   }
